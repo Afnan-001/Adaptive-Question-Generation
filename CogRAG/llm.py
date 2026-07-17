@@ -42,7 +42,7 @@ class LLM:
         self.model = "azure/gpt-4o"
         self.api_base = "https://ctonpeuiaopenai.openai.azure.com/"
         self.api_version = "2025-01-01-preview"
-    self.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+        self.api_key = os.getenv("AZURE_OPENAI_API_KEY")
         self.sys_msg = sys_msg
         self.temperature = temperature
         self.top_p = top_p
