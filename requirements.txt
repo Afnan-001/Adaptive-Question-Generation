@@ -1,0 +1,10 @@
+litellm
+langchain-text-splitters
+networkx
+numpy
+pymupdf
+pyvis
+python-dotenv
+requests
+streamlit
+tqdm

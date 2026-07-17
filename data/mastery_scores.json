@@ -1,0 +1,4297 @@
+{
+    "1NF": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "2NF": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "3NF": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "4NF": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "5NF": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Abort": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Access Control": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Access Method": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Access Path": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ACID": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Active Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Acyclic Hypergraph": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Adaptive Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Agglomerative Clustering": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Aggregate Function": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Aggregation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Aggregation Operator": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ALTER TABLE": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Alternate Key": {
+        "p_know": 0.1272727272727273,
+        "questions_attempted": 1,
+        "correct_answers": 0,
+        "asked_question_ids": [
+            "Alternate Key_easy_1"
+        ],
+        "wrong_question_ids": [
+            "Alternate Key_easy_1"
+        ]
+    },
+    "Anomaly": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Antisemijoin": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Apache Hive": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Apriori Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ARIES": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Armstrong's Axioms": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Assertion": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Association": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Association Class": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Association Rule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Atomic Value": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Atomicity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Attribute": {
+        "p_know": 0.8736842105263158,
+        "questions_attempted": 2,
+        "correct_answers": 2,
+        "asked_question_ids": [
+            "Attribute_easy_1",
+            "Attribute_medium_1"
+        ],
+        "wrong_question_ids": []
+    },
+    "Attribute Closure": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Authentication": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Authorization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Availability": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "AVG Function": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "B+-Tree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "B-Tree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Backup": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Bag": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "BCNF": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "BETWEEN Operator": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Big Data": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Binary Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Bitmap Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "BLOB": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Block": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Block Addressing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Block Transfer Time": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Boolean Operation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Bridge Entity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Buffer Management": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Buffer Manager": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Buffering": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Bulk Load": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Business Rule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Call-Level Interface": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Candidate Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "CAP Theorem": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cardinality": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cardinality Ratio": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cartesian Product": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cascade Delete": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cascade Update": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cascading Rollback": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Catalog": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Centralized Database System": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "CHAR": {
+        "p_know": 0.8736842105263158,
+        "questions_attempted": 2,
+        "correct_answers": 2,
+        "asked_question_ids": [
+            "CHAR_easy_1",
+            "CHAR_medium_2"
+        ],
+        "wrong_question_ids": []
+    },
+    "Chase": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "CHECK Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Checkpoint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Checksum": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Closure": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Clustering": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Clustering Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Column": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Column Store": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Compensating Transaction": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Completeness Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Composite Attribute": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Composite Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Composite Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Composite Primary Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Conceptual Data Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Conceptual Data Modeling": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Conceptual Design": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Conceptual Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Conceptual Modeling": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Conceptual Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Concurrency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Concurrency Control": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Conflict Serializability": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Conjunctive Query": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Consistency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Constraint Checking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Correlated Subquery": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cost Estimation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cost Function": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cost Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cost-Based Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cost-Based Plan Selection": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "COUNT": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "CREATE TABLE": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "CREATE TRIGGER": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "CROSS JOIN": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cube Operator": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Cursor": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Abstraction": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Cube": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Distribution": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Encryption": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Fragmentation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Inconsistency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Independence": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Integrity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Isolation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Mart": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Mining": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Redundancy": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Replication": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Retrieval": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Stream": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Stream Data Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Stream Management System": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Stream System": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Type": {
+        "p_know": 0.2308605341246291,
+        "questions_attempted": 2,
+        "correct_answers": 1,
+        "asked_question_ids": [
+            "Data Type_easy_1",
+            "Data Type_medium_1"
+        ],
+        "wrong_question_ids": [
+            "Data Type_medium_1"
+        ]
+    },
+    "Data Uniqueness": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Data Warehouse": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Database Administrator": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Database Connection": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Database Design": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Database Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Database Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Database Security": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Datalog": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Datalog Rule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DataNode": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DATE": {
+        "p_know": 0.8736842105263158,
+        "questions_attempted": 2,
+        "correct_answers": 2,
+        "asked_question_ids": [
+            "DATE_easy_1",
+            "DATE_medium_1"
+        ],
+        "wrong_question_ids": []
+    },
+    "Date Function": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DATEADD": {
+        "p_know": 0.1272727272727273,
+        "questions_attempted": 1,
+        "correct_answers": 0,
+        "asked_question_ids": [
+            "DATEADD_easy_1"
+        ],
+        "wrong_question_ids": [
+            "DATEADD_easy_1"
+        ]
+    },
+    "DATEDIFF": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DATEPART": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DBMS": {
+        "p_know": 0.8736842105263158,
+        "questions_attempted": 2,
+        "correct_answers": 2,
+        "asked_question_ids": [
+            "DBMS_easy_1",
+            "DBMS_medium_1"
+        ],
+        "wrong_question_ids": []
+    },
+    "DDL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Deadlock": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Deadlock Resolution": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Decomposition": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Deductive Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Default Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Default Value": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Deferred Update": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Degree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Degree Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DELETE": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Delete Statement": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Deletion": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Deletion Anomaly": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dense Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dependency Diagram": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dependency Preservation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dependency-Preserving Decomposition": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dependent Entity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Derived Attribute": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Determinant": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dimensional Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dirty Read": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Discretionary Access Control": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Disjointness": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Disjointness Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Disk Block": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Disk Scheduling": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Disk Storage": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DISTINCT": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Database Architecture": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Database Management System": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Database System": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Hash Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Hashing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Locking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Query Processing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Distributed Transaction": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DML": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Document Type Definition": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Domain": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Domain Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Domain Integrity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Drill-Down": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Drop": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DROP TABLE": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "DTD": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Duplicate Elimination": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Durability": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dynamic Locking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Dynamic SQL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "EER Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Elevator Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Embedded SQL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Encryption": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Enhanced Entity-Relationship Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Entity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Entity Integrity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Entity Resolution": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Entity Set": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Entity Type": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Entity-Relationship Diagram": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Entity-Relationship Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ER Diagram": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ER Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ER-to-Relational Mapping": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ETL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Event-Condition-Action Rule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Eventual Consistency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Exclusive Lock": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Execution Engine": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Execution Plan": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Existence Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Expression Tree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Extensible Hash Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "External Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "External Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Federated Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Federated Database System": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Field": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "File Organization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Finger Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Fixed-Length Record": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Flow Control": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "FLWR Expression": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Foreign Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Fragmentation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Frequent Itemset Mining": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Full Outer Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Functional Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Generalization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Global Lock": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Global Query Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Global Transaction Manager": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Grant": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Granularity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Greedy Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Grid File": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "GROUP BY": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Grouping Operator": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Hadoop": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Hash Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Hash Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Hash-Based Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Hashed File": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Hashing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "HAVING": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "HDFS": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Heterogeneous Distributed Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Heuristic Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Heuristic Query Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Hierarchical Data Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Histogram": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Homogeneous Distributed Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Horizontal Fragmentation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Identifying Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Identity Column": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Impedance Mismatch": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "IN Clause": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Inclusion Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Incremental Maintenance": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Independent Entity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Index Locking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Index-Based Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Indexing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Inference Control": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Information Integration": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Inheritance": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "INNER JOIN": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "INSERT Statement": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Insertion Anomaly": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Instance": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Instead-Of Trigger": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Integrity Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Integrity Rule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Internal Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Intersection": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Inverted Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Isolation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Isolation Level": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Java Database Connectivity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Join Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Join Order": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Join Selectivity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Join Tree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "JSON": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Key Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Left Outer Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Left-Deep Join Tree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Linear Hash Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Linking Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Locality-Sensitive Hashing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Lock": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Lock Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Locking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Log Manager": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Log Record": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Logging": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Logical Data Independence": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Logical Database Design": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Logical Design": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Logical Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Logical Logging": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Logical Query Plan": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Logical Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Long Transaction": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Lossless Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Mandatory Access Control": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Many-to-Many Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Many-to-One Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Map-Side Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "MapReduce": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Master Data Management": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Materialization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Materialized View": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Mediator": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Metadata": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Min-Max Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Minhashing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Minimal Basis": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Minus": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Mirroring": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multi-Granularity Locking Protocol": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multidatabase System": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multidimensional Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multilevel Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multimedia Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multipass Hash-Based Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multipass Sort-Based Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multivalued Attribute": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multivalued Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Multiway Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "MVCC": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "NameNode": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Namespace": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Natural Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Nested Relation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Nested-Loop Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Network Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Non-Clustering Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Non-Identifying Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Normal Form": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Normalization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "NoSQL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "NOT NULL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "NULL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Object Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Object Definition Language": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Object Description Language": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Object Identifier": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Object Identity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Object Query Language": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Object-Oriented Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Object-Relational Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ODL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "OLAP": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "One-Pass Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "One-to-Many Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "One-to-One Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Operational Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Operator": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Optional Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ORDER BY": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ORDER BY Clause": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Ordered File": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "ORM": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Orphan Record": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "OUTER JOIN": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Parallel Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Parallel Architecture": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Parallel Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Parameter Passing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Parse Tree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Parsing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Partial Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Partition Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Partition Tolerance": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Partitioned Hash Function": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Partitioned Hashing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Partitioning": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Pattern Matching": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "PCY Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Peer-to-Peer Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Peer-to-Peer Networks": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Persistent Object": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Persistent Storage": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Persistent Stored Module": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Persistent Stored Module Function": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Persistent Stored Module Procedure": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Phantom": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Phantom Problem": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Data Independence": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Data Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Database Design": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Design": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Optimizer": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Query Plan": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Query Plan Operator": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Physical Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Pinned Record": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Pipelined Evaluation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Pipelining": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Plan Caching": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Pointer Swizzling": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Precedence Graph": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Predicate": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Predicate Locking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Prefetching": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Prepared Statement": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Primary Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Primary Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Primary-Copy Locking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Prime Attribute": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Privacy": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Privilege": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Privilege Checking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Procedure": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Program-Data Independence": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Projection": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Quad Tree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Compiler": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Execution": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Language": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Optimizer": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Parser": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Plan": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Plan Caching": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Plan Selection": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Preprocessor": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Processing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query Processor": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Query-By-Example": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "R-Swoosh Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "R-Tree": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "RAID 5": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Range Query": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "RBAC": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "RDBMS": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Record": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Record Addressing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recoverability": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recoverable Schedule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recovery": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recovery Manager": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recovery Mechanism": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recovery of Distributed Transactions": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recursive Relation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recursive Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Recursive SQL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Redo Logging": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Redundancy": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Referential Integrity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Referential Integrity Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relation Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Algebra": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Calculus": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Data Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Database Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Design": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Modeling": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relational Operation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Relationship Set": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Renaming": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Replication": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Resource Manager": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Revoke": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Right Outer Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Role": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Roll-Up": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Rollback": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Rotational Delay": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Saga": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Scalability": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Scheduler": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Scheduling": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Schema Design": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Secondary Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Secondary Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Secondary Storage": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Security": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Seek Time": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "SELECT": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Select Statement": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Selection": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Self-Association": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Semantic Query Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Semijoin": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Semijoin Reduction": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Semistructured Data": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Semistructured Data Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Sequential File": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Serial Schedule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Serializability": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Serializable Schedule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Set Difference": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Set-Valued Attribute": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Shadow Paging": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Sharding": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Shared Lock": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Simple Attribute": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Single-User Database System": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Snapshot Isolation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Snowflake Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Sort-Merge Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Sparse Index": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Spatial Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Specialization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Splitting Rule": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "SQL": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "SQL Extension": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "SQL Injection": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "SQL/CLI": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "SQL/PSM": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "SQLJ": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Stable Storage": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Star Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Starvation": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Storage Management": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Stored Procedure": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Stream Data Model": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Strong Entity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Subclass": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Subquery": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Subquery Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Subschema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "SUM": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Superclass": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Superkey": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Surrogate Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Syntax Analysis": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Synthesis Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "System Catalogue": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Temporal Database": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Temporary Table": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Ternary Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Theta Join": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Three Schema Architecture": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Three Tier Architecture": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Three-Tier Architecture": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Timestamp": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Timestamp Ordering Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Top-k Optimization": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Transaction": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Transaction Processing": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Transitive Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Tree Protocol": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Trigger": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Trivial Functional Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Trivial Multivalued Dependency": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Tuple": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Tuple-Based CHECK Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Two-Pass Algorithm": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Two-Phase Commit": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Two-Phase Locking": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Type Constructor": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Type Hierarchy": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "UML Class": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Unary Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Undo Logging": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Undo/Redo": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Undo/Redo Logging": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Unified Modeling Language": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Union": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Union All": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Union Compatibility": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Union Type": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Unique Constraint": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Unique Key": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Unstructured Data": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Updatable View": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Update": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Update Anomaly": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Update Statement": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "User-Defined Type": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "VARCHAR": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Variable-Length Record": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "View": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "View Definition Language": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "View Merging": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Weak Entity": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Weak Relationship": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Well-Formed XML": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "WHERE Clause": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "Write-Ahead Logging": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "XML": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "XML Schema": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "XPath": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "XQuery": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    },
+    "XSLT": {
+        "p_know": 0.2,
+        "questions_attempted": 0,
+        "correct_answers": 0,
+        "asked_question_ids": [],
+        "wrong_question_ids": []
+    }
+}
