@@ -44,7 +44,7 @@ No `requirements.txt` or `pyproject.toml` is present, so the package list below 
 - Python 3.10+ recommended
 - A `books/` directory at the project root containing one or more DBMS PDF files
 - Access to the embedding API configured through environment variables
-- Access to the Azure OpenAI deployment hardcoded in [CogRAG/llm.py](/d:/TCS%20R&I%20Internship/Adaptive-Assessment-Engine/CogRAG/llm.py:26)
+- Access to Azure OpenAI configured through environment variables used by [CogRAG/llm.py](CogRAG/llm.py)
 
 ### Required packages
 ```bash
@@ -56,6 +56,10 @@ pip install pymupdf tqdm langchain-text-splitters numpy requests python-dotenv l
 EMBEDDING_API_BASE=http://10.221.0.164:4000/v1
 EMBEDDING_MODEL=si-rca-dds-text-embedding-3-small
 EMBEDDING_API_KEY=your_token_here
+AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/
+AZURE_OPENAI_API_KEY=your_azure_openai_api_key_here
+AZURE_OPENAI_API_VERSION=2025-01-01-preview
+AZURE_OPENAI_MODEL=azure/gpt-4o
 ```
 
 ## Configuration
@@ -77,7 +81,7 @@ EMBEDDING_API_KEY=your_token_here
 
 ### External services
 - OpenAI-compatible embedding API via `requests.post(...)`
-- Azure OpenAI via LiteLLM in [CogRAG/llm.py](/d:/TCS%20R&I%20Internship/Adaptive-Assessment-Engine/CogRAG/llm.py:1)
+- Azure OpenAI via LiteLLM in [CogRAG/llm.py](CogRAG/llm.py)
 
 ## Execution Order
 The order below is inferred from actual file reads, writes, and imports.
@@ -349,7 +353,7 @@ Check:
 - connectivity to the configured endpoint
 
 ### LLM failures
-[CogRAG/llm.py](/d:/TCS%20R&I%20Internship/Adaptive-Assessment-Engine/CogRAG/llm.py:1) hardcodes Azure OpenAI settings. If those values are invalid, concept extraction, enrichment, and question generation will fail.
+[CogRAG/llm.py](CogRAG/llm.py) reads its Azure OpenAI settings from environment variables. If those values are missing or invalid, concept extraction, enrichment, and question generation will fail.
 
 ## Assumptions
 - The intended input corpus is DBMS textbook material because every prompt and the app title are DBMS-specific.

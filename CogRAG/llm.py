@@ -3,7 +3,12 @@ import time
 import os
 import json
 
+from dotenv import load_dotenv
+
 from CogRAG.log_file import LLMCallLogger
+
+
+load_dotenv()
 
 
 # ----------------------------
@@ -39,13 +44,18 @@ class LLM:
         temperature=0.7,
         top_p=1
     ):
-        self.model = "azure/gpt-4o"
-        self.api_base = "https://ctonpeuiaopenai.openai.azure.com/"
-        self.api_version = "2025-01-01-preview"
+        self.model = os.getenv("AZURE_OPENAI_MODEL", "azure/gpt-4o")
+        self.api_base = os.getenv("AZURE_OPENAI_ENDPOINT")
+        self.api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2025-01-01-preview")
         self.api_key = os.getenv("AZURE_OPENAI_API_KEY")
         self.sys_msg = sys_msg
         self.temperature = temperature
         self.top_p = top_p
+
+        if not self.api_base:
+            raise ValueError("AZURE_OPENAI_ENDPOINT is not set. Add it to your environment or .env file.")
+        if not self.api_key:
+            raise ValueError("AZURE_OPENAI_API_KEY is not set. Add it to your environment or .env file.")
 
         self.logger = LLMCallLogger(log_path)
 
