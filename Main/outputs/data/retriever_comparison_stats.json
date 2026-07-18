@@ -1,0 +1,648 @@
+{
+    "lexical_graph_mapping_stats": {
+        "total_concepts": 613,
+        "concepts_with_chunks": 540,
+        "zero_match_concepts": 73,
+        "coverage_percent": 88.09,
+        "total_concept_chunk_links": 15090,
+        "unique_chunks_used": 2893,
+        "average_chunks_per_concept": 24.62,
+        "median_chunks_per_concept": 5,
+        "min_chunks_per_concept": 0,
+        "max_chunks_per_concept": 945,
+        "average_chunk_reuse": 5.22,
+        "top_10_most_reused_chunks": [
+            [
+                "book3_p1231_c1",
+                28
+            ],
+            [
+                "book3_p1239_c0",
+                27
+            ],
+            [
+                "book3_p1220_c0",
+                25
+            ],
+            [
+                "book3_p1239_c1",
+                25
+            ],
+            [
+                "book3_p1235_c1",
+                24
+            ],
+            [
+                "book3_p1225_c1",
+                24
+            ],
+            [
+                "book3_p1230_c0",
+                24
+            ],
+            [
+                "book3_p1228_c1",
+                23
+            ],
+            [
+                "book2_p132_c0",
+                22
+            ],
+            [
+                "book1_p53_c1",
+                22
+            ]
+        ]
+    },
+    "semantic_embedding_mapping_stats": {
+        "total_concepts": 613,
+        "concepts_with_chunks": 613,
+        "zero_match_concepts": 0,
+        "coverage_percent": 100.0,
+        "total_concept_chunk_links": 15325,
+        "unique_chunks_used": 2241,
+        "average_chunks_per_concept": 25,
+        "median_chunks_per_concept": 25,
+        "min_chunks_per_concept": 25,
+        "max_chunks_per_concept": 25,
+        "average_chunk_reuse": 6.84,
+        "top_10_most_reused_chunks": [
+            [
+                "book2_p83_c0",
+                132
+            ],
+            [
+                "book2_p13_c0",
+                131
+            ],
+            [
+                "book2_p8_c2",
+                112
+            ],
+            [
+                "book1_p28_c1",
+                86
+            ],
+            [
+                "book2_p111_c0",
+                83
+            ],
+            [
+                "book3_p52_c0",
+                72
+            ],
+            [
+                "book2_p113_c0",
+                68
+            ],
+            [
+                "book1_p81_c0",
+                67
+            ],
+            [
+                "book1_p30_c1",
+                66
+            ],
+            [
+                "book3_p101_c0",
+                63
+            ]
+        ]
+    },
+    "overlap_stats": {
+        "total_concepts_compared": 613,
+        "average_jaccard_similarity": 0.0856,
+        "median_jaccard_similarity": 0.0633,
+        "average_overlap_chunks_per_concept": 3.44,
+        "concepts_with_no_overlap_count": 124,
+        "concepts_with_high_overlap_count": 0,
+        "semantic_has_more_chunks_count": 506,
+        "lexical_has_more_chunks_count": 103,
+        "equal_chunk_count_concepts": 4,
+        "sample_concepts_with_no_overlap": [
+            "ALTER Command",
+            "ARIES Algorithm",
+            "AVG Function",
+            "Access Method",
+            "Apriori Algorithm",
+            "Armstrong's Axioms",
+            "Artificial Key",
+            "Attribute Independence",
+            "Authentication",
+            "Bridge Entity",
+            "CAP Theorem",
+            "Cardinality Ratio",
+            "Clustered Index",
+            "Column Store",
+            "Composite Attribute",
+            "Composite Entity",
+            "Conceptual Modeling",
+            "Conflict Serializability",
+            "Containment Mapping Test",
+            "Containment of Conjunctive Query"
+        ],
+        "sample_concepts_with_high_overlap": [],
+        "sample_semantic_more": [
+            "1NF",
+            "2NF",
+            "3NF",
+            "3NF Synthesis Algorithm",
+            "4NF",
+            "5NF",
+            "ACID Properties",
+            "ALTER Command",
+            "ARIES Algorithm",
+            "AVG Function",
+            "Access Control",
+            "Access Method",
+            "Active Database",
+            "Acyclic Hypergraph",
+            "Adaptive Optimization",
+            "Adornment Notation",
+            "Agglomerative Clustering",
+            "Aggregate Function",
+            "Aggregation Operator",
+            "Alternate Key"
+        ],
+        "sample_lexical_more": [
+            "Abort",
+            "Aggregation",
+            "Association",
+            "Attribute",
+            "B-Tree",
+            "BCNF",
+            "Bag",
+            "Block",
+            "Buffer",
+            "Buffer Manager",
+            "CHAR",
+            "COUNT",
+            "CREATE TABLE",
+            "Checkpoint",
+            "Closure",
+            "Clustering",
+            "Column",
+            "Concurrency",
+            "Concurrency Control",
+            "Consistency"
+        ]
+    },
+    "lexical_chunk_reuse_stats": {
+        "chunks_reused_more_than_5_concepts": 1148,
+        "chunks_reused_more_than_10_concepts": 191,
+        "chunks_reused_more_than_20_concepts": 14,
+        "top_20_most_reused_chunks": [
+            [
+                "book3_p1231_c1",
+                28
+            ],
+            [
+                "book3_p1239_c0",
+                27
+            ],
+            [
+                "book3_p1220_c0",
+                25
+            ],
+            [
+                "book3_p1239_c1",
+                25
+            ],
+            [
+                "book3_p1235_c1",
+                24
+            ],
+            [
+                "book3_p1225_c1",
+                24
+            ],
+            [
+                "book3_p1230_c0",
+                24
+            ],
+            [
+                "book3_p1228_c1",
+                23
+            ],
+            [
+                "book2_p132_c0",
+                22
+            ],
+            [
+                "book1_p53_c1",
+                22
+            ],
+            [
+                "book3_p1234_c0",
+                22
+            ],
+            [
+                "book3_p1236_c0",
+                21
+            ],
+            [
+                "book3_p1233_c1",
+                21
+            ],
+            [
+                "book3_p1235_c0",
+                21
+            ],
+            [
+                "book3_p1229_c0",
+                20
+            ],
+            [
+                "book3_p101_c0",
+                20
+            ],
+            [
+                "book1_p53_c0",
+                20
+            ],
+            [
+                "book3_p101_c1",
+                20
+            ],
+            [
+                "book3_p1224_c0",
+                20
+            ],
+            [
+                "book3_p1236_c1",
+                20
+            ]
+        ],
+        "top_20_most_reused_chunk_previews": [
+            {
+                "chunk_id": "book3_p1231_c1",
+                "reuse_count": 28,
+                "book_name": "book3.pdf",
+                "page_number": 1231,
+                "preview": "model, Nested relation, Network model, Ob­ ject-oriented model, Object- relational model, ODL, Phys­ ical data model, Relational model, Semistructured data, UML, XML Modification 1"
+            },
+            {
+                "chunk_id": "book3_p1239_c0",
+                "reuse_count": 27,
+                "book_name": "book3.pdf",
+                "page_number": 1239,
+                "preview": "1202 INDEX 889 See also Consistency, Incomplete transaction, Long-duration transaction Transaction manager 883 Transaction processing See Concurrency, Deadlock, Lock­ ing, Logging,"
+            },
+            {
+                "chunk_id": "book3_p1220_c0",
+                "reuse_count": 25,
+                "book_name": "book3.pdf",
+                "page_number": 1220,
+                "preview": "Index A Abiteboul, S. 12, 515 Abort 852 See also Rollback Abstract query plan See Logical query plan Achilles, A.-C. 12 ACID properties 9 See also Atomicity, Consistency, Durabilit"
+            },
+            {
+                "chunk_id": "book3_p1239_c1",
+                "reuse_count": 25,
+                "book_name": "book3.pdf",
+                "page_number": 1239,
+                "preview": "See Relational calculus Tuple variable 261-262 Tuple-based check 321-323, 331 Tuple-based nested-loop join 719 Two-argument selection 783-785 Two-pass algorithm 723-738 Two-phase c"
+            },
+            {
+                "chunk_id": "book3_p1235_c1",
+                "reuse_count": 24,
+                "book_name": "book3.pdf",
+                "page_number": 1235,
+                "preview": "See also Foreign key Reflexivity rule 81 Reina, C. 1132, 1139 Relation 18, 205, 342, 1165-1168 See also Build relation, Dimen­ sion table, Fact table, Probe relation, Table, View R"
+            },
+            {
+                "chunk_id": "book3_p1225_c1",
+                "reuse_count": 24,
+                "book_name": "book3.pdf",
+                "page_number": 1225,
+                "preview": "locking 1014-1019 Distributed transaction 998-999 Distributive law 212-213 DML See Data-manipulation language Document 488, 499, 502-503, 518- 519, 1111, 1124 Document retrieval 62"
+            },
+            {
+                "chunk_id": "book3_p1230_c0",
+                "reuse_count": 24,
+                "book_name": "book3.pdf",
+                "page_number": 1230,
+                "preview": "INDEX 1193 LCS See Longest common subsequence Leaf 484, 634 Least-recently used 748 Lee, S. 1180 Left outerjoin 221, 277 Left-deep join tree 816-819 Legacy database 486, 1038 Legal"
+            },
+            {
+                "chunk_id": "book3_p1228_c1",
+                "reuse_count": 23,
+                "book_name": "book3.pdf",
+                "page_number": 1228,
+                "preview": "1083-1086 ID 500-502 See also Object-ID, Tuple iden­ tifier Idempotence 1083 IDREF 500-502 IF 394 Imielinski, T. 1139 Impedance mismatch 380 IMPLIED 499 Importance, of pages 1144-1"
+            },
+            {
+                "chunk_id": "book2_p132_c0",
+                "reuse_count": 22,
+                "book_name": "book2.pdf",
+                "page_number": 132,
+                "preview": "context of database normalization? Answer:3NF allows some functional dependencies to remain if there is a non-prime attribute involved, while BCNF requires that every determinant i"
+            },
+            {
+                "chunk_id": "book1_p53_c1",
+                "reuse_count": 22,
+                "book_name": "book1.pdf",
+                "page_number": 53,
+                "preview": "n-ary: multiple tables in a relationship null: a special symbol, independent of data type, which means either unknown or inapplicable; it does not mean zero or blank recursive rela"
+            },
+            {
+                "chunk_id": "book3_p1234_c0",
+                "reuse_count": 22,
+                "book_name": "book3.pdf",
+                "page_number": 1234,
+                "preview": "INDEX 1197 Preservation of dependencies See Dependency preservation Preservation, of value sets 797-798 Price, T. G. 841 Primary index 620 See also Dense index, Sparse index Primar"
+            },
+            {
+                "chunk_id": "book3_p1236_c0",
+                "reuse_count": 21,
+                "book_name": "book3.pdf",
+                "page_number": 1236,
+                "preview": "INDEX 1199 Role 131-133, 175 Rollback 300-301, 955-959 See also Abort, Cascading roll­ back Roll-up 471, 476 Root 485, 489, 495, 519 Rosenkrantz, D. J. 984 Rotational latency 565 S"
+            },
+            {
+                "chunk_id": "book3_p1233_c1",
+                "reuse_count": 21,
+                "book_name": "book3.pdf",
+                "page_number": 1233,
+                "preview": "Paton, N. W. 340 Pattern matching See LIKE Patterson, D. A. 618 PCDATA 496 PCY Algorithm 1105-1107 PEAR 419 Pedersen, J. 1180 Peer-to-peer network 4, 1020-1021 Pelagatti, G. 983 Pe"
+            },
+            {
+                "chunk_id": "book3_p1235_c0",
+                "reuse_count": 21,
+                "book_name": "book3.pdf",
+                "page_number": 1235,
+                "preview": "1198 INDEX Real number See Floating-point number Record 590-592, 1079 See also ICAR records, Log record, Sliding records, Spanned record, Tagged field, Variable-format record, Vari"
+            },
+            {
+                "chunk_id": "book3_p1229_c0",
+                "reuse_count": 20,
+                "book_name": "book3.pdf",
+                "page_number": 1229,
+                "preview": "1192 INDEX Integer 30, 188 Intention lock 923-925 Interest 1097 Interior node 485 Interior region 683 Intermittent failure 575-576 Interpretation of text 417-418, 535- 536 Intersec"
+            },
+            {
+                "chunk_id": "book3_p101_c0",
+                "reuse_count": 20,
+                "book_name": "book3.pdf",
+                "page_number": 101,
+                "preview": "♦ Relational Model: Relations axe tables representing information. Columns are headed by attributes; each attribute has an associated domain, or data type. Rows are called tuples, "
+            },
+            {
+                "chunk_id": "book1_p53_c0",
+                "reuse_count": 20,
+                "book_name": "book1.pdf",
+                "page_number": 53,
+                "preview": "entity relationship (ER) data model: also called an ER schema, are represented by ER diagrams. These are well suited to data modelling for use with databases. entity relationship s"
+            },
+            {
+                "chunk_id": "book3_p101_c1",
+                "reuse_count": 20,
+                "book_name": "book3.pdf",
+                "page_number": 101,
+                "preview": "♦ Semistructured Data Model: In this model, data is organized in a tree or graph structure. XML is an important example of a semistructured data model. ♦ SQL: The language SQL is t"
+            },
+            {
+                "chunk_id": "book3_p1224_c0",
+                "reuse_count": 20,
+                "book_name": "book3.pdf",
+                "page_number": 1224,
+                "preview": "INDEX 1187 Curse of dimensionality 1127 Cursor 383-387, 396, 415, 419-420 Cylinder 562, 568-570 D Dangling tuple 219-220, 315, 1001 Darwen, H. 309 Data compression 610-611 Data cub"
+            },
+            {
+                "chunk_id": "book3_p1236_c1",
+                "reuse_count": 20,
+                "book_name": "book3.pdf",
+                "page_number": 1236,
+                "preview": "Global schema, Relation schema, Relational database schema, Star schema Schema heterogeneity 1040-1041 Schkolnick, M. 1180 Schneider, R. 698 Schwarz, P. 882, 983 Search engine 1141"
+            }
+        ]
+    },
+    "semantic_chunk_reuse_stats": {
+        "chunks_reused_more_than_5_concepts": 718,
+        "chunks_reused_more_than_10_concepts": 379,
+        "chunks_reused_more_than_20_concepts": 177,
+        "top_20_most_reused_chunks": [
+            [
+                "book2_p83_c0",
+                132
+            ],
+            [
+                "book2_p13_c0",
+                131
+            ],
+            [
+                "book2_p8_c2",
+                112
+            ],
+            [
+                "book1_p28_c1",
+                86
+            ],
+            [
+                "book2_p111_c0",
+                83
+            ],
+            [
+                "book3_p52_c0",
+                72
+            ],
+            [
+                "book2_p113_c0",
+                68
+            ],
+            [
+                "book1_p81_c0",
+                67
+            ],
+            [
+                "book1_p30_c1",
+                66
+            ],
+            [
+                "book3_p101_c0",
+                63
+            ],
+            [
+                "book2_p54_c0",
+                63
+            ],
+            [
+                "book2_p56_c0",
+                59
+            ],
+            [
+                "book3_p42_c0",
+                58
+            ],
+            [
+                "book3_p237_c0",
+                58
+            ],
+            [
+                "book3_p203_c0",
+                53
+            ],
+            [
+                "book3_p101_c1",
+                53
+            ],
+            [
+                "book3_p58_c0",
+                52
+            ],
+            [
+                "book3_p101_c2",
+                52
+            ],
+            [
+                "book1_p80_c1",
+                51
+            ],
+            [
+                "book3_p412_c0",
+                51
+            ]
+        ],
+        "top_20_most_reused_chunk_previews": [
+            {
+                "chunk_id": "book2_p83_c0",
+                "reuse_count": 132,
+                "book_name": "book2.pdf",
+                "page_number": 83,
+                "preview": "applications from the physical database. 7.Logical data independence is the capacity to change the conceptual schema without having to change external schemas or application progra"
+            },
+            {
+                "chunk_id": "book2_p13_c0",
+                "reuse_count": 131,
+                "book_name": "book2.pdf",
+                "page_number": 13,
+                "preview": "1.8 When Not to Use a DBMS DBMS may not be appropriate for simpler applications, real-time requirements, embedded systems, or single-user access due to overhead costs. 1.9 Summary "
+            },
+            {
+                "chunk_id": "book2_p8_c2",
+                "reuse_count": 112,
+                "book_name": "book2.pdf",
+                "page_number": 8,
+                "preview": "to Use a DBMS DBMS may be unsuitable for simpler applications, real-time needs, embedded systems, or single-user applications due to overhead costs. 1.9 Summary The chapter introdu"
+            },
+            {
+                "chunk_id": "book1_p28_c1",
+                "reuse_count": 86,
+                "book_name": "book1.pdf",
+                "page_number": 28,
+                "preview": "data so that you can build an enterprise-wide database. Based on the needs of various departments, the conceptual model is the first model created. At this stage, the conceptual mo"
+            },
+            {
+                "chunk_id": "book2_p111_c0",
+                "reuse_count": 83,
+                "book_name": "book2.pdf",
+                "page_number": 111,
+                "preview": "6.Question Explain the concept of data independence and its types. Answer:Data independence allows changes at one schema level without impacting other levels. It includes logical d"
+            },
+            {
+                "chunk_id": "book3_p52_c0",
+                "reuse_count": 72,
+                "book_name": "book3.pdf",
+                "page_number": 52,
+                "preview": "Part I Relational Database Modeling 15"
+            },
+            {
+                "chunk_id": "book2_p113_c0",
+                "reuse_count": 68,
+                "book_name": "book2.pdf",
+                "page_number": 113,
+                "preview": "defined relationships between them and rely on SQL as a standard query language, contrasting with other models like object-oriented or NOSQL databases that cater to different data "
+            },
+            {
+                "chunk_id": "book1_p81_c0",
+                "reuse_count": 67,
+                "book_name": "book1.pdf",
+                "page_number": 81,
+                "preview": "functional dependency (FD): a relationship between two attributes, typically between the PK and other non- key attributes within a table non-normalized table: a table that has data"
+            },
+            {
+                "chunk_id": "book1_p30_c1",
+                "reuse_count": 66,
+                "book_name": "book1.pdf",
+                "page_number": 30,
+                "preview": "data independence: the ability to change the logical schema without changing the external schema logical design: where you create all the tables, constraints, keys, rules, etc. log"
+            },
+            {
+                "chunk_id": "book3_p101_c0",
+                "reuse_count": 63,
+                "book_name": "book3.pdf",
+                "page_number": 101,
+                "preview": "♦ Relational Model: Relations axe tables representing information. Columns are headed by attributes; each attribute has an associated domain, or data type. Rows are called tuples, "
+            },
+            {
+                "chunk_id": "book2_p54_c0",
+                "reuse_count": 63,
+                "book_name": "book2.pdf",
+                "page_number": 54,
+                "preview": "Chapter 10 Summary : part 10 Distributed Databases, NOSQL Systems, and Big Data Chapter 10: Distributed Databases, NOSQL Systems, and Big Data Distributed Database Concepts This ch"
+            },
+            {
+                "chunk_id": "book2_p56_c0",
+                "reuse_count": 59,
+                "book_name": "book2.pdf",
+                "page_number": 56,
+                "preview": "Replication : Increases data availability but may complicate update operations. Concurrency Control and Recovery in Distributed Databases Addressing issues unique to DDBs like dupl"
+            },
+            {
+                "chunk_id": "book3_p42_c0",
+                "reuse_count": 58,
+                "book_name": "book3.pdf",
+                "page_number": 42,
+                "preview": "1.2. OVERVIEW OF A DATABASE MANAGEMENT SYSTEM 5 distributed among them. One popular approach is the creation of data ware­ houses, where information from many legacy databases is c"
+            },
+            {
+                "chunk_id": "book3_p237_c0",
+                "reuse_count": 58,
+                "book_name": "book3.pdf",
+                "page_number": 237,
+                "preview": "200 CHAPTER 4. HIGH-LEVEL DATABASE MODELS 4.11 Summary of Chapter 4 ♦ The Entity-Relationship Model: In the E/R model we describe entity sets, relationships among entity sets, and "
+            },
+            {
+                "chunk_id": "book3_p203_c0",
+                "reuse_count": 53,
+                "book_name": "book3.pdf",
+                "page_number": 203,
+                "preview": "166 CHAPTER 4. HIGH-LEVEL DATABASE MODELS 2. Treat entities as objects belonging to a single class. For each possible subtree that includes the root, create one relation, whose sch"
+            },
+            {
+                "chunk_id": "book3_p101_c1",
+                "reuse_count": 53,
+                "book_name": "book3.pdf",
+                "page_number": 101,
+                "preview": "♦ Semistructured Data Model: In this model, data is organized in a tree or graph structure. XML is an important example of a semistructured data model. ♦ SQL: The language SQL is t"
+            },
+            {
+                "chunk_id": "book3_p58_c0",
+                "reuse_count": 52,
+                "book_name": "book3.pdf",
+                "page_number": 58,
+                "preview": "2.2. BASICS OF THE RELATIONAL MODEL 21 There are even database models of the purely object-oriented kind. In these, the relation is no longer the principal data-structuring concept"
+            },
+            {
+                "chunk_id": "book3_p101_c2",
+                "reuse_count": 52,
+                "book_name": "book3.pdf",
+                "page_number": 101,
+                "preview": "associated with an attribute. We may also use a DROP statement to completely eliminate relations or other schema elements. ♦ Relational Algebra: This algebra underlies most query l"
+            },
+            {
+                "chunk_id": "book1_p80_c1",
+                "reuse_count": 51,
+                "book_name": "book1.pdf",
+                "page_number": 80,
+                "preview": "—> HrsWork • Transitive Dependency: ◦ DeptNo —> DeptName Key Terms Armstrong’s axioms: a set of inference rules used to infer all the functional dependencies on a relational databa"
+            },
+            {
+                "chunk_id": "book3_p412_c0",
+                "reuse_count": 51,
+                "book_name": "book3.pdf",
+                "page_number": 412,
+                "preview": "9.2. THE SQL ENVIRONMENT 375 More Schema Elements Some schema elements that we have not already mentioned, but that oc­ casionally are useful are: • Domains: These are sets of valu"
+            }
+        ]
+    }
+}
