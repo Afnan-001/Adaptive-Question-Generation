@@ -1,12 +1,12 @@
-# Adaptive Assessment Engine
+# Adaptive Assessment Generation
 
 ## Project Overview
-This project is a DBMS-focused adaptive question generation system. It converts textbook PDFs into a structured concept graph, links concepts back to supporting text chunks, retrieves graph-aware context, generates grounded MCQs, and updates learner mastery with a Bayesian Knowledge Tracing (BKT) loop.
+This project is a DBMS-focused adaptive question generation system. It converts textbook PDFs into a structured concept graph, links concepts back to supporting text chunks, retrieves graph-aware context, generates grounded MCQs, and updates learner mastery with a confidence-aware Bayesian Knowledge Tracing (BKT) loop.
 
 The source code is under `Main/` and is split into two functional areas:
 
-- `Main/AutoHKG`: **Auto Hierarchial Knowledge Graph**. This is the knowledge-graph creation pipeline.
-- `Main/CogRAG`: **Cognitive RAG**. This is the Graph+Semantic retrieval, question-generation, adaptive-engine, and app layer.
+- `Main/AutoHKG`: **Auto Hierarchial Knowledge Graph**. This is the knowledge-graph creation pipeline, including source-grounded enrichment and optional cycle cleanup.
+- `Main/CogRAG`: **Cognitive RAG**. This is the Graph+Semantic retrieval, question-generation, adaptive-engine, confidence scoring, and app layer.
 
 Generated files are written under `Main/outputs/`.
 
@@ -21,9 +21,9 @@ Generated files are written under `Main/outputs/`.
 |   |-- books/
 |   |   |-- book1.pdf
 |   |   |-- book2.pdf
-|   |   |-- book3.pdf
 |   |-- AutoHKG/
 |   |   |-- build_graph.py
+|   |   |-- clean_cycles.py
 |   |   |-- embed_chunks.py
 |   |   |-- enrich_concepts.py
 |   |   |-- extract_and_chunk.py
@@ -32,6 +32,7 @@ Generated files are written under `Main/outputs/`.
 |   |-- CogRAG/
 |   |   |-- adaptive_engine.py
 |   |   |-- app.py
+|   |   |-- confidence.py
 |   |   |-- concept_chunk_map.py
 |   |   |-- mastery_scores.py
 |   |   |-- question_generator.py
@@ -42,7 +43,6 @@ Generated files are written under `Main/outputs/`.
 |   |   |-- data_halfCorpus/
 |   |   |-- graph_model/
 |-- assets/
-|-- lib/
 |-- test_scripts/
 |-- requirements.txt
 |-- README.md
@@ -76,6 +76,7 @@ AZURE_OPENAI_MODEL=azure/gpt-4o
 ### Generated output locations
 - JSON Outputs: `Main/outputs/data`
 - Graph Model: `Main/outputs/graph_model`
+- Learner state, generated questions, navigation state, and cleanup reports are also written under `Main/outputs/data`
 
 
 ## Architecture Diagram
@@ -88,9 +89,11 @@ graph TD
     A[extract_and_chunk.py] --> B[embed_chunks.py]
     A --> C[extract_concepts.py]
     C --> D[merge_concepts.py]
-    D --> E[enrich_concepts.py]
-    E --> F[build_graph.py]
     B --> G[concept_chunk_map.py]
+    D --> E[enrich_concepts.py]
+    G --> E
+    E --> M[clean_cycles.py optional]
+    E --> F[build_graph.py]
     E --> G
     E --> H[mastery_scores.py]
     F --> I[retriever.py]
@@ -115,6 +118,7 @@ python Main/AutoHKG/embed_chunks.py
 python Main/AutoHKG/extract_concepts.py
 python Main/AutoHKG/merge_concepts.py
 python Main/AutoHKG/enrich_concepts.py
+python Main/AutoHKG/clean_cycles.py
 python Main/AutoHKG/build_graph.py
 ```
 
@@ -123,6 +127,8 @@ python Main/AutoHKG/build_graph.py
 python Main/CogRAG/concept_chunk_map.py
 python Main/CogRAG/mastery_scores.py
 ```
+
+`concept_chunk_map.py` is also used by `enrich_concepts.py` as source evidence for category and prerequisite extraction. When regenerating source-grounded enrichment, make sure `Main/outputs/data/concept_chunk_map.json` already exists.
 
 ### Retrieval
 ```bash
@@ -167,56 +173,72 @@ Below is the execution order of files.
 - **Required or optional:** Required
 
 ### 5. `Main/AutoHKG/enrich_concepts.py`
-- **Purpose:** Adds category and prerequisite relationships to each concept.
-- **Inputs:** `Main/outputs/data/merged_concepts.json`
+- **Purpose:** Adds source-grounded coarse-grained category and prerequisite relationships to each concept, including confidence and evidence metadata.
+- **Inputs:** `Main/outputs/data/merged_concepts.json`, `Main/outputs/data/concept_chunk_map.json`, `Main/outputs/data/dbms_chunks.json`
 - **Outputs:** `Main/outputs/data/enriched_concepts.json`
 - **Required or optional:** Required
 
-### 6. `Main/AutoHKG/build_graph.py`
+### 6. `Main/AutoHKG/clean_cycles.py`
+- **Purpose:** Detects prerequisite cycles and removes the lowest-confidence edge from each cycle.
+- **Inputs:** `Main/outputs/data/enriched_concepts.json`
+- **Outputs:** `Main/outputs/data/cleaned_enriched_concepts.json`, `Main/outputs/data/removed_prerequisite_cycle_edges.json`
+- **Required or optional:** Optional cleanup/reporting step
+
+### 7. `Main/AutoHKG/build_graph.py`
 - **Purpose:** Builds the DBMS knowledge graph and writes both GML and HTML visualization outputs.
 - **Inputs:** `Main/outputs/data/enriched_concepts.json`
 - **Outputs:** `Main/outputs/graph_model/knowledge_graph.gml`, `Main/outputs/data/knowledge_graph.html`
 - **Required or optional:** Required
 
 
-### 7. `Main/CogRAG/concept_chunk_map.py`
-- **Purpose:** Precomputes semantic chunk candidates for each concept.
+### 8. `Main/CogRAG/concept_chunk_map.py`
+- **Purpose:** Precomputes semantic chunk candidates and similarity scores for each concept.
 - **Inputs:** `Main/outputs/data/dbms_chunks.json`, `Main/outputs/data/enriched_concepts.json`, `Main/outputs/data/chunk_index.json`, `Main/outputs/data/chunk_embeddings.npy`, `EMBEDDING_*`
 - **Outputs:** `Main/outputs/data/concept_chunk_map.json`, `Main/outputs/data/concept_chunk_scores.json`
-- **Required or optional:** Required for runtime retrieval
+- **Required or optional:** Required for source-grounded enrichment and runtime retrieval
 
-### 8. `Main/CogRAG/mastery_scores.py`
+### 9. `Main/CogRAG/mastery_scores.py`
 - **Purpose:** Creates the initial BKT mastery state for every concept.
 - **Inputs:** `Main/outputs/data/enriched_concepts.json`
 - **Outputs:** `Main/outputs/data/mastery_scores.json`
 - **Required or optional:** Required before adaptive tutoring
 
-### 9. `Main/CogRAG/retriever.py`
-- **Purpose:** Combines graph relationships with semantic reranking to retrieve concept-grounded context.
+### 10. `Main/CogRAG/retriever.py`
+- **Purpose:** Combines graph relationships with semantic reranking to retrieve concept-grounded context. It also supports multi-concept retrieval for primary and secondary concepts.
 - **Inputs:** concept CLI argument, `Main/outputs/graph_model/knowledge_graph.gml`, `Main/outputs/data/concept_chunk_map.json`, `Main/outputs/data/dbms_chunks.json`, `Main/outputs/data/chunk_index.json`, `Main/outputs/data/chunk_embeddings.npy`, `EMBEDDING_*`
 - **Outputs:** console output when used as a CLI tool; in-memory retrieval result when imported
 - **Required or optional:** Optional standalone tool, required indirectly by question generation
 - **Example usage:** `python Main/CogRAG/retriever.py "Normalization"`
 
-### 10. `Main/CogRAG/question_generator.py`
-- **Purpose:** Retrieves context, prompts the LLM to generate an MCQ, validates it, and stores accepted questions.
+### 11. `Main/CogRAG/question_generator.py`
+- **Purpose:** Retrieves context, prompts the LLM to generate an MCQ, validates it, rejects exact and semantic duplicates, assigns source chunks, and stores accepted questions.
 - **Inputs:** concept and difficulty arguments, `Main/CogRAG/retriever.py`, `Main/llm.py`
 - **Outputs:** `Main/outputs/data/generated_mcqs.json`
 - **Required or optional:** Optional standalone tool, required by the adaptive engine
 - **Example usage:** `python Main/CogRAG/question_generator.py "Normalization" medium`
 
-### 11. `Main/CogRAG/adaptive_engine.py`
-- **Purpose:** Selects the next concept, decides difficulty, evaluates answers, and updates BKT mastery state.
-- **Inputs:** `Main/outputs/data/mastery_scores.json`, `Main/outputs/graph_model/knowledge_graph.gml`, `Main/outputs/data/current_concept.txt`, `Main/outputs/data/recent_concepts.json`, question objects from `Main/CogRAG/question_generator.py`
-- **Outputs:** updated learner-state files under `Main/outputs/data/`
-- **Dependencies:** `Main/CogRAG/mastery_scores.py`, `Main/AutoHKG/build_graph.py`, `Main/CogRAG/question_generator.py`
-- **Required to run or optional:** Optional standalone tool
-- **Example usage:** imported by `Main/CogRAG/app.py`
+### 12. `Main/CogRAG/confidence.py`
+- **Purpose:** Computes learner-confidence scores from number of attempts and recent answer consistency.
+- **Inputs:** question attempt counts and recent answer history from mastery state
+- **Outputs:** in-memory confidence score used by `Main/CogRAG/adaptive_engine.py`
+- **Required or optional:** Required by adaptive engine
 
-### 12. `Main/CogRAG/app.py`
-- **Purpose:** Streamlit UI for generating adaptive questions, submitting answers, and showing progress.
-- **Required or optional:** Optional if you only need offline artifacts; main user entry point
+### 13. `Main/CogRAG/adaptive_engine.py`
+- **Purpose:** Selects the next concept, decides difficulty, evaluates answers, handles prerequisite remediation, and updates weighted multi-concept BKT mastery state.
+- **Inputs:** `Main/outputs/data/mastery_scores.json`, `Main/outputs/graph_model/knowledge_graph.gml`, `Main/outputs/data/navigation_state.json`, question objects from `Main/CogRAG/question_generator.py`
+- **Outputs:** updated `Main/outputs/data/mastery_scores.json` and `Main/outputs/data/navigation_state.json`
+- **Required to run or optional:** Optional standalone file, used by app.py
+
+### 14. `Main/CogRAG/app.py`
+- **Purpose:** Streamlit UI for generating adaptive questions, submitting answers, showing concept weights, displaying per-concept mastery updates, and showing progress.
+- **Required or optional:** Required; main user entry point
 - **Example usage:** `streamlit run Main/CogRAG/app.py`
+
+## Test Scripts
+The `test_scripts/` folder contains helper scripts for validating parts of the implementation:
+
+- `test_scripts/test_question_generation.py`: Streamlit test UI for generating graph-backed MCQs with isolated test output files.
+- `test_scripts/test_semantic.py`: Utility script for inspecting repeated semantic chunk usage.
 
 ## Other Resources
 The `assets/` folder contains supporting project reference material used/made during the internship:
