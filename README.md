@@ -21,6 +21,7 @@ Generated files are written under `Main/outputs/`.
 |   |-- books/
 |   |   |-- book1.pdf
 |   |   |-- book2.pdf
+|   |   |-- book3.pdf
 |   |-- AutoHKG/
 |   |   |-- build_graph.py
 |   |   |-- clean_cycles.py
@@ -42,7 +43,7 @@ Generated files are written under `Main/outputs/`.
 |   |   |-- data_fullCorpus/
 |   |   |-- data_halfCorpus/
 |   |   |-- graph_model/
-|-- assets/
+|-- desktop_assets/
 |-- test_scripts/
 |-- requirements.txt
 |-- README.md
@@ -76,34 +77,12 @@ AZURE_OPENAI_MODEL=azure/gpt-4o
 ### Generated output locations
 - JSON Outputs: `Main/outputs/data`
 - Graph Model: `Main/outputs/graph_model`
-- Learner state, generated questions, navigation state, and cleanup reports are also written under `Main/outputs/data`
+- Concepts data, Learner state, generated questions, navigation state, etc. are written under `Main/outputs/data`
 
 
 ## Architecture Diagram
-![Architecture Diagram](assets/Diagrams/Architecture%20Diagram.png)
+![Architecture Diagram](desktop_assets/Diagrams/Architecture%20Diagram.png)
 
-
-## Workflow Diagram
-```mermaid
-graph TD
-    A[extract_and_chunk.py] --> B[embed_chunks.py]
-    A --> C[extract_concepts.py]
-    C --> D[merge_concepts.py]
-    B --> G[concept_chunk_map.py]
-    D --> E[enrich_concepts.py]
-    G --> E
-    E --> M[clean_cycles.py optional]
-    E --> F[build_graph.py]
-    E --> G
-    E --> H[mastery_scores.py]
-    F --> I[retriever.py]
-    G --> I
-    B --> I
-    I --> J[question_generator.py]
-    J --> K[adaptive_engine.py]
-    H --> K
-    K --> L[app.py]
-```
 
 ## Main Entry Points
 - Knowledge-graph build: scripts in `Main/AutoHKG/`
@@ -241,11 +220,10 @@ The `test_scripts/` folder contains helper scripts for validating parts of the i
 - `test_scripts/test_semantic.py`: Utility script for inspecting repeated semantic chunk usage.
 
 ## Other Resources
-The `assets/` folder contains supporting project reference material used/made during the internship:
+The `desktop_assets/` folder contains supporting project reference material used/made during the internship:
 
-- `assets/Adaptive_Assessment_Internship_Problem_Statement_V1.pdf`: Original internship problem statement and project scope.
-- `assets/Reference Research Paper.pdf`: Research paper used as the reference for the system design and approach.
-- `assets/Diagrams/`: Visual artifacts that explain the system structure and implementation flow:
-  
-- `assets/PPTs/`: Presentation decks prepared during the internship duration:
-  
+- `desktop_assets/Diagrams/`: Visual artifacts that explain the system structure and implementation flow:
+- `desktop_assets/PPTs/`: Presentation decks prepared during the internship duration:
+- `desktop_assets/Adaptive_Assessment_Internship_Problem_Statement_V1.pdf`: Original internship problem statement and project scope.
+- `desktop_assets/Literature Review Summary and Approaches.docx`: A document created to note and summarize the findings from the conducted literature review. Also includes some initial question generation approaches that I was thinking for the project.
+- `desktop_assets/Reference Research Paper.pdf`: Research paper used as the reference for the system design and approach.
